@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>API test</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="weather" class="weather">
+
+        </div>
+        <div class="weather__country">
+            <label for="select">Country: </label>
+            <select required="required" class="select" id="select">
+                <option value="">Choose a country</option>
+                <option value="UA">Ukraine</option>
+                <option value="JP">Japan</option>
+                <option value="FR">French</option>
+
+            </select>
+        </div>
+        <div class="city__wrepper hide">
+            <label for="input-city">City: </label>
+            <input id="input-city" class="input__city" type="text">
+            <div class="ul__wrepper">
+                <ul class="city">
+
+                </ul>
+            </div>
+        </div>
+
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox">weather auto-update</label>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

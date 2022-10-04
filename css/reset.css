@@ -1,0 +1,60 @@
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea,
+select,
+option {
+	font-family: inherit;
+	font-size: inherit;
+	outline:none;
+	background-color: transparent;
+	-webkit-appearance: none;
+	color: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
