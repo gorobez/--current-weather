@@ -16,7 +16,12 @@
 
 
 body {
+    padding-top: 70px;
     background: rgb(65, 64, 64);
+}
+
+.container{
+    padding: 0 15px;
 }
 
 .wrapper {
